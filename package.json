@@ -1,6 +1,6 @@
 {
   "name": "apidoc-to-swagger",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Convert api doc json to swagger json based in apidoc-swagger",
   "author": "Bahman Fakhr Sabahi (Modified by Luis Rodriguez)",
   "license": {
