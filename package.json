@@ -1,21 +1,21 @@
 {
-  "name": "apidoc-swagger",
-  "version": "0.2.2",
-  "description": "Convert api doc json to swagger json",
-  "author": "Bahman Fakhr Sabahi",
+  "name": "apidoc-to-swagger",
+  "version": "0.2.3",
+  "description": "Convert api doc json to swagger json based in apidoc-swagger",
+  "author": "Bahman Fakhr Sabahi (Modified by Luis Rodriguez)",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/fsbahman/apidoc-swagger/blob/master/README.md/LICENSE"
+    "url": "https://github.com/compuhelmac/apidoc-swagger/blob/master/README.md/LICENSE"
   },
   "preferGlobal": true,
   "bin": "bin/apidocSwagger.js",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsbahman/apidoc-swagger.git"
+    "url": "https://github.com/compuhelmac/apidoc-swagger.git"
   },
   "bugs": {
-    "url": "https://github.com/fsbahman/apidoc-swagger/issues"
+    "url": "https://github.com/compuhelmac/apidoc-swagger/issues"
   },
   "keywords": [
     "api",

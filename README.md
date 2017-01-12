@@ -1,5 +1,8 @@
-# apidoc-swagger
-apidoc and swagger are two nice projects which are focusing on documentation of APIs. 
+# apidoc-to-swagger
+
+This component is based on apidoc-swagger from [swagger-ui](https://github.com/fsbahman/apidoc-swagger)
+
+apidoc and swagger are two nice projects which are focusing on documentation of APIs.
 This project is a middle tier which tries to bring them together in a sense that:
 > It uses apidoc to convert inline documentation comments into json schema and later convert it to swagger json schmea.
 
@@ -26,22 +29,17 @@ By putting in line comments in the source code like this in javascript, you will
 
 ## Installation
 
-`npm install apidoc-swagger -g`
+`npm install apidoc-to-swagger -g`
 
 
 Current version unlocks most of the basic capabilities of both projects and improvement is in progress.
 
 ## Example
 
-`apidoc-swagger -i example/ -o doc/`
+`apidoc-to-swagger -i example/ -o doc/`
 
 
 
 Have a look at [apidoc](https://github.com/apidoc/apidoc) for full functionality overview and capabilities of apidoc.
 
 To read more about how swagger works refer to [swagger-ui](https://github.com/swagger-api/swagger-ui) and [swagger-spec](https://github.com/swagger-api/swagger-spec) for details of `swagger.json`.
-
-
-## Gulp Module
-
-[gulp-apidoc-swagger](https://github.com/fsbahman/gulp-apidoc-swagger) `npm install gulp-apidoc-swagger`.
